@@ -1,0 +1,9 @@
+[package]
+name = "read_write_modbus_tcp_rtu"
+version = "0.1.0"
+edition = "2021"
+authors = ["Chrispine Tinega <hello@chrispinetinega.com>"]
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+tokio-modbus = "0.16.1"
