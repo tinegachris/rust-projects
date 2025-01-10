@@ -13,9 +13,50 @@ Cargo.lock
 # MSVC Windows builds of rustc generate these, which store debugging information
 *.pdb
 
-# RustRover
-#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
-#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#  and can be added to the global gitignore or merged into this file.  For a more nuclear
-#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
+# Ignore node_modules if using Node.js for frontend
+node_modules/
+
+# Ignore the .env file if using environment variables
+.env
+
+# Ignore the .vscode directory if using Visual Studio Code
+.vscode/
+
+# Ignore the .idea directory if using JetBrains IDEs
+.idea/
+
+# Ignore the target directory
+target/
+
+# Ignore the Cargo.lock file if this is a library
+Cargo.lock
+
+# Ignore the build directory
+build/
+
+# Ignore the dist directory
+dist/
+
+# Ignore the out directory
+out/
+
+# Ignore the coverage directory
+coverage/
+
+# Ignore the logs directory
+logs/
+
+# Ignore the tmp directory
+tmp/
+
+# Ignore the .DS_Store file on macOS
+.DS_Store
+
+# Ignore Thumbs.db file on Windows
+Thumbs.db
+
+# Ignore the .git directory
+.git/
+
+# Ignore the .gitignore file itself
+.gitignore
